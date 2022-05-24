@@ -59,7 +59,7 @@ html {font-size: 93.8%;} /*15px*/
 
 /* general styles  */
 body {
-  background: var(--white);
+  background: var(--VeryLightGray);
   font-family: var(--ff-primary);
   font-weight: var(--fw-reg);
   font-size: var(--fs-base);
