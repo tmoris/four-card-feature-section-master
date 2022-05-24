@@ -3,7 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
-html {font-size: 93.8%;} /*15px*/
+html {
+  font-size: 93.8%;
+} /*15px*/
 :root {
 /* colors */
 /* primary colors */
@@ -64,7 +66,7 @@ body {
   font-weight: var(--fw-reg);
   font-size: var(--fs-base);
   line-height: 1.75;
-  color: var(--black);
+  color: var(--VeryDarkBlue);
 }
 
 p {
