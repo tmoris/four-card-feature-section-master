@@ -59,7 +59,7 @@ html {font-size: 93.8%;} /*15px*/
 
 /* general styles  */
 body {
-  background: var(--GrayishBlue);
+  background: var(--white);
   font-family: var(--ff-primary);
   font-weight: var(--fw-reg);
   font-size: var(--fs-base);
@@ -125,9 +125,9 @@ small, .text_small {
   text-align: center;
 }
 .intro-title {
-padding-top: 1em;
-font-weight: var(--fw-light);
-font-size: var(--fs-m);
+  padding-top: 1em;
+  font-weight: var(--fw-light);
+  font-size: var(--fs-m);
 }
 .block-text {
   display: block;
@@ -169,8 +169,8 @@ bottom: 1em;
   border-top: .25em solid var(--Orange);
 }
 .subtitle {
-font-size: var(--fs-n);
-font-weight: var(--fw-bold);
+  font-size: var(--fs-n);
+  font-weight: var(--fw-bold);
 }
 .attribution { 
   font-size: 11px; text-align: center; }
@@ -179,7 +179,7 @@ font-weight: var(--fw-bold);
 }
 
 @media screen and (min-width: 50.5em) {
-  .intro-text{
+  .intro-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
