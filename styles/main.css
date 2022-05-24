@@ -186,10 +186,10 @@ font-weight: var(--fw-bold);
     align-items: center;
   }
   .features {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-auto-rows: 1fr;
-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 1em;
   }
   .feature + .feature{
     margin-top: 0;
